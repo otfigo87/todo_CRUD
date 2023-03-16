@@ -21,7 +21,7 @@ const Todo = ({ todo, completeTodo, editTodoText, deleteTodo }) => {
       </div>
 
       <label htmlFor="">
-        Completed{" "}
+        Completed
         <input
           onChange={(e) => completeTodo(todo.id)}
           type="checkbox"
